@@ -40,5 +40,26 @@
     "price": "284,04",
     "oldPrice": "499,90",
     "link": "https://meli.la/2WGHc1U21"
+  },
+  {
+    "name": "Smart TV AOC DLED 32 Wi-Fi Roku TV Quad Core 32S5155/78G",
+    "image": "images/tv-aoc-32.jpg",
+    "price": "969,03",
+    "oldPrice": "999,00",
+    "link": "https://meli.la/1CZzCDk"
+  },
+  {
+    "name": "Smart TV Hisense Hi-QLED 4K 65\" Dolby Vision, Dolby Gaming, Alexa e Google",
+    "image": "images/tv-hisense-65.jpg",
+    "price": "3.374,00",
+    "oldPrice": "3.999,00",
+    "link": "https://meli.la/2UDk6sM"
+  },
+  {
+    "name": "Monitor LG UltraGear 27G411A-B 27\" FHD 144Hz 1ms",
+    "image": "images/monitor-lg-ultragear.jpg",
+    "price": "739,00",
+    "oldPrice": "1.098,00",
+    "link": "https://meli.la/1T9Mz1h"
   }
 ]
