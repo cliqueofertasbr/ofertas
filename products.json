@@ -5,5 +5,33 @@
     "price": "55,99",
     "oldPrice": "175,88",
     "link": "https://s.shopee.com.br/3B5cdmLgLw"
+  },
+  {
+    "name": "Café Italle Gourmet Torrado em Grãos 1kg",
+    "image": "images/cafe-italle.jpg",
+    "price": "68,00",
+    "oldPrice": "99,90",
+    "link": "https://s.shopee.com.br/3ViT71M6UT"
+  },
+  {
+    "name": "Numbuzin No.9 NAD Toner/Essência/Creme Para Os Olhos",
+    "image": "images/numbuzin-toner.jpg",
+    "price": "69,99",
+    "oldPrice": "75,99",
+    "link": "https://s.shopee.com.br/3g1tJKLT9W"
+  },
+  {
+    "name": "Lilyeve Grow:Turn Ampoule — Anti-Queda e Cuidado do Couro Cabeludo",
+    "image": "images/lilyeve-ampoule.jpg",
+    "price": "70,00",
+    "oldPrice": "71,00",
+    "link": "https://s.shopee.com.br/3qLJVdKpoZ"
+  },
+  {
+    "name": "Kit 2 Cadeiras Lua Decorativa Poltrona",
+    "image": "images/cadeira-lua.jpg",
+    "price": "174,70",
+    "oldPrice": "185,99",
+    "link": "https://s.shopee.com.br/2g9M7UPHBM"
   }
 ]
