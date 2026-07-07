@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ofertas do Dia</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #1a1d24;
+    --accent: #ff4d2d;
+    --text: #f2f2f2;
+    --muted: #9a9ea6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    text-align: center;
+    padding: 32px 16px 16px;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 28px;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.15s;
+  }
+  .card:active { transform: scale(0.97); }
+  .card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background: #fff;
+  }
+  .card .info {
+    padding: 10px 12px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .card .name {
+    font-size: 13px;
+    line-height: 1.3;
+    margin: 0 0 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.6em;
+  }
+  .card .price-row {
+    margin-top: auto;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+  .card .price {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .card .old-price {
+    color: var(--muted);
+    font-size: 12px;
+    text-decoration: line-through;
+  }
+  .card .cta {
+    margin-top: 8px;
+    background: var(--accent);
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 40px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Ofertas do Dia</h1>
+    <p>Achadinhos com desconto real — atualizado todo dia</p>
+  </header>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">Nenhuma oferta agora. Volta mais tarde 👀</div>
+  <footer>Preços e disponibilidade sujeitos a alteração no site de origem.</footer>
+
+  <script>
+    fetch('products.json?_=' + Date.now())
+      .then(r => r.json())
+      .then(products => {
+        const grid = document.getElementById('grid');
+        if (!products.length) {
+          document.getElementById('empty').style.display = 'block';
+          return;
+        }
+        products.slice().reverse().forEach(p => {
+          const a = document.createElement('a');
+          a.className = 'card';
+          a.href = p.link;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          a.innerHTML = `
+            <img src="${p.image}" alt="${p.name}" loading="lazy">
+            <div class="info">
+              <p class="name">${p.name}</p>
+              <div class="price-row">
+                <span class="price">R$ ${p.price}</span>
+                ${p.oldPrice ? `<span class="old-price">R$ ${p.oldPrice}</span>` : ''}
+              </div>
+              <div class="cta">Ver oferta →</div>
+            </div>
+          `;
+          grid.appendChild(a);
+        });
+      });
+  </script>
+</body>
+</html>
