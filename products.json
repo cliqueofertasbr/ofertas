@@ -131,5 +131,19 @@
     "price": "114,00",
     "oldPrice": "119,99",
     "link": "https://s.shopee.com.br/6AjMFa3q3n"
+  },
+  {
+    "name": "Livro Bíblico do Bebê - dos Pequeninos, Ilustrado Capa Dura",
+    "image": "images/biblia-do-bebe.jpg",
+    "price": "23,75",
+    "oldPrice": "23,98",
+    "link": "https://s.shopee.com.br/6pz34P9m9A?lp=aff"
+  },
+  {
+    "name": "Luz de Parede Solar Externa 8 LED RGB à Prova D'água",
+    "image": "images/luz-solar-parede.jpg",
+    "price": "82,36",
+    "oldPrice": "90,90",
+    "link": "https://s.shopee.com.br/2g9U6po14e"
   }
 ]
