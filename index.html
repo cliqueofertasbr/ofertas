@@ -110,6 +110,23 @@
     color: var(--muted);
     padding: 40px;
   }
+  .search-wrap {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .search-wrap input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 999px;
+    border: 1px solid #2a2e38;
+    background: var(--card);
+    color: var(--text);
+    font-size: 15px;
+    outline: none;
+  }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-wrap input:focus { border-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -117,39 +134,61 @@
     <h1>🔥 Ofertas do Dia</h1>
     <p>Achadinhos com desconto real — atualizado todo dia</p>
   </header>
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="🔎 Buscar produto (ex: café, tv, skincare)...">
+  </div>
   <div class="grid" id="grid"></div>
-  <div class="empty" id="empty" style="display:none">Nenhuma oferta agora. Volta mais tarde 👀</div>
+  <div class="empty" id="empty" style="display:none">Nenhuma oferta encontrada.</div>
   <footer>Preços e disponibilidade sujeitos a alteração no site de origem.</footer>
 
   <script>
+    let allProducts = [];
+    const grid = document.getElementById('grid');
+    const emptyMsg = document.getElementById('empty');
+    const searchInput = document.getElementById('search');
+
+    function render(products) {
+      grid.innerHTML = '';
+      if (!products.length) {
+        emptyMsg.style.display = 'block';
+        return;
+      }
+      emptyMsg.style.display = 'none';
+      products.forEach(p => {
+        const a = document.createElement('a');
+        a.className = 'card';
+        a.href = p.link;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.innerHTML = `
+          <img src="${p.image}" alt="${p.name}" loading="lazy">
+          <div class="info">
+            <p class="name">${p.name}</p>
+            <div class="price-row">
+              <span class="price">R$ ${p.price}</span>
+              ${p.oldPrice ? `<span class="old-price">R$ ${p.oldPrice}</span>` : ''}
+            </div>
+            <div class="cta">Ver oferta →</div>
+          </div>
+        `;
+        grid.appendChild(a);
+      });
+    }
+
     fetch('products.json?_=' + Date.now())
       .then(r => r.json())
       .then(products => {
-        const grid = document.getElementById('grid');
-        if (!products.length) {
-          document.getElementById('empty').style.display = 'block';
-          return;
-        }
-        products.slice().reverse().forEach(p => {
-          const a = document.createElement('a');
-          a.className = 'card';
-          a.href = p.link;
-          a.target = '_blank';
-          a.rel = 'noopener';
-          a.innerHTML = `
-            <img src="${p.image}" alt="${p.name}" loading="lazy">
-            <div class="info">
-              <p class="name">${p.name}</p>
-              <div class="price-row">
-                <span class="price">R$ ${p.price}</span>
-                ${p.oldPrice ? `<span class="old-price">R$ ${p.oldPrice}</span>` : ''}
-              </div>
-              <div class="cta">Ver oferta →</div>
-            </div>
-          `;
-          grid.appendChild(a);
-        });
+        allProducts = products.slice().reverse();
+        render(allProducts);
       });
+
+    searchInput.addEventListener('input', () => {
+      const q = searchInput.value.trim().toLowerCase();
+      const filtered = q
+        ? allProducts.filter(p => p.name.toLowerCase().includes(q))
+        : allProducts;
+      render(filtered);
+    });
   </script>
 </body>
 </html>
