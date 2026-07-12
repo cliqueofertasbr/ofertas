@@ -96,5 +96,19 @@
     "price": "69,99",
     "oldPrice": "",
     "link": "https://s.shopee.com.br/3qLRSUsmQS"
+  },
+  {
+    "name": "Jogo de Lençol 400 Fios Micropercal Com Fronha em Ponto Palito",
+    "image": "images/lencol-400fios-v2.jpg",
+    "price": "12,80",
+    "oldPrice": "13,80",
+    "link": "https://s.shopee.com.br/BS95tPdwR"
+  },
+  {
+    "name": "Lola Morte Súbita - Máscara Super Hidratante 450g",
+    "image": "images/lola-morte-subita.jpg",
+    "price": "49,90",
+    "oldPrice": "56,90",
+    "link": "https://s.shopee.com.br/gOPgrrKGl"
   }
 ]
