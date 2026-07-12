@@ -145,5 +145,75 @@
     "price": "82,36",
     "oldPrice": "90,90",
     "link": "https://s.shopee.com.br/2g9U6po14e"
+  },
+  {
+    "name": "Calça Jeans Masculina Premium Tradicional e Alta Qualidade",
+    "image": "images/calca-jeans-masculina.jpg",
+    "price": "48,90",
+    "oldPrice": "89,90",
+    "link": "https://s.shopee.com.br/3g21KaB8IE"
+  },
+  {
+    "name": "Manta Para Sofá Super King 4,00 x 1,80 Gigante Algodão",
+    "image": "images/manta-sofa-superking.jpg",
+    "price": "59,90",
+    "oldPrice": "72,90",
+    "link": "https://s.shopee.com.br/3qLRWtAUxH"
+  },
+  {
+    "name": "18/24/36 Talheres Individuais Inox Para Cozinha Dourado",
+    "image": "images/talheres-dourado-inox.jpg",
+    "price": "32,99",
+    "oldPrice": "71,98",
+    "link": "https://s.shopee.com.br/2g9U8kEwK4"
+  },
+  {
+    "name": "Vestido Feminino Longo Soltinho Tendência Blogueira Casual Algodão",
+    "image": "images/vestido-longo-blogueira.jpg",
+    "price": "39,97",
+    "oldPrice": "59,00",
+    "link": "https://s.shopee.com.br/2qSuL3EIz7"
+  },
+  {
+    "name": "Kit 4 Refletor LED 100W Holofote Bivolt IP66 à Prova d'Água",
+    "image": "images/refletor-led-100w.jpg",
+    "price": "62,92",
+    "oldPrice": "170,00",
+    "link": "https://s.shopee.com.br/30mKXMDfeA"
+  },
+  {
+    "name": "Kit 4 Cuecas Boxer Polostar Lisa Microfibra Sem Costura",
+    "image": "images/kit-cuecas-boxer.jpg",
+    "price": "55,90",
+    "oldPrice": "79,90",
+    "link": "https://s.shopee.com.br/7AbtV7Uih6"
+  },
+  {
+    "name": "Passadeira 110V Vaporizador a Vapor Portátil 800W",
+    "image": "images/passadeira-vaporizador.jpg",
+    "price": "59,99",
+    "oldPrice": "150,00",
+    "link": "https://s.shopee.com.br/70ITIoVM25"
+  },
+  {
+    "name": "Boneca Bebê Reborn Realista de Silicone Menina",
+    "image": "images/boneca-reborn.jpg",
+    "price": "79,48",
+    "oldPrice": "79,98",
+    "link": "https://s.shopee.com.br/qhpxTO24J"
+  },
+  {
+    "name": "Mochila Masculina de Nylon Alta Capacidade Casual Multiuso",
+    "image": "images/mochila-masculina-nylon.jpg",
+    "price": "37,99",
+    "oldPrice": "69,99",
+    "link": "https://s.shopee.com.br/LlZMYPw5E"
+  },
+  {
+    "name": "Calça Pantalona Plus Size Feminina Cintura Alta Tecido Duna",
+    "image": "images/calca-pantalona-plussize.jpg",
+    "price": "30,50",
+    "oldPrice": "109,90",
+    "link": "https://s.shopee.com.br/gOPlAOfPG"
   }
 ]
