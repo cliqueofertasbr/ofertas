@@ -215,5 +215,26 @@
     "price": "30,50",
     "oldPrice": "109,90",
     "link": "https://s.shopee.com.br/gOPlAOfPG"
+  },
+  {
+    "name": "Smartphone Samsung Galaxy A36 5G 128GB 6GB RAM Câmera Tripla 50MP Preto",
+    "image": "images/galaxy-a36.jpg",
+    "price": "1.289",
+    "oldPrice": "2.212",
+    "link": "https://meli.la/2X6LEUa"
+  },
+  {
+    "name": "LG XBoom XG9S Caixa de Som Bluetooth Portátil IP67 24h Bateria",
+    "image": "images/lg-xboom-xg9s.jpg",
+    "price": "990,45",
+    "oldPrice": "2.099",
+    "link": "https://meli.la/1Ge2ckF"
+  },
+  {
+    "name": "Impressora Multifuncional HP Deskjet Ink Advantage 2975 Wi-Fi",
+    "image": "images/impressora-hp-deskjet.jpg",
+    "price": "449,10",
+    "oldPrice": "712,86",
+    "link": "https://meli.la/224bqcW"
   }
 ]
