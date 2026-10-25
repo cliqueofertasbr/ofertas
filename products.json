@@ -299,5 +299,75 @@
     "price": "19,88",
     "oldPrice": "39,99",
     "link": "https://s.shopee.com.br/8fTI4lUwTs"
+  },
+  {
+    "name": "Conjunto Feminino 2 Peças Colete com Zíper e Calça Pantalona Alfaiataria",
+    "image": "images/conjunto-colete-marant.jpg",
+    "price": "126,26",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/1BNH99Jquy"
+  },
+  {
+    "name": "Conjunto em Linho Misto – Elegância e Conforto",
+    "image": "images/conjunto-linho-misto.jpg",
+    "price": "188,10",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/7KxuUjlePx"
+  },
+  {
+    "name": "Blusa Transpassada Feminina para Amamentação Manga Curta Decote V",
+    "image": "images/blusa-amamentacao.jpg",
+    "price": "34,10",
+    "oldPrice": "60,00",
+    "link": "https://s.shopee.com.br/8pmiHxYQ5t"
+  },
+  {
+    "name": "Bolsa Estruturada com Alça Curta e Longa",
+    "image": "images/bolsa-estruturada.jpg",
+    "price": "114,00",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/8pmiJWhhbT"
+  },
+  {
+    "name": "Conjunto 2 Peças em Linho Misto – Colete + Calça Cenoura",
+    "image": "images/conjunto-linho-colete-cenoura.jpg",
+    "price": "188,10",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/6fiDjlK2D0"
+  },
+  {
+    "name": "Copo Life Gocase 880ml – Aço Inox, Tampa e Canudo Tritan, Isolamento a Vácuo",
+    "image": "images/copo-life-gocase.jpg",
+    "price": "123,41",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/9V2P7BlvS2"
+  },
+  {
+    "name": "Kit 5 Camisetas Masculinas Dry Fit com Textura",
+    "image": "images/kit-5-camisetas-dryfit.jpg",
+    "price": "224,10",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/4B0sldvEEo"
+  },
+  {
+    "name": "Bolsa Tote Daily Clear Gocase – Leve, Moderna e Minimalista",
+    "image": "images/tote-daily-clear.jpg",
+    "price": "170,91",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/3g4cBCP5Gh"
+  },
+  {
+    "name": "Cesto de Roupa Suja de Bambu Dobrável Redondo 57L com Tampa e Alças",
+    "image": "images/cesto-bambu-57l.jpg",
+    "price": "52,84",
+    "oldPrice": "89,90",
+    "link": "https://s.shopee.com.br/2VsenEKkd4"
+  },
+  {
+    "name": "Bolsa de Palha Grande com Listras e Alças em Couro PU",
+    "image": "images/bolsa-palha-listras.jpg",
+    "price": "118,75",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/4VdjDTEleP"
   }
 ]
