@@ -236,5 +236,68 @@
     "price": "449,10",
     "oldPrice": "712,86",
     "link": "https://meli.la/224bqcW"
+  },
+  {
+    "name": "Conjunto Canelado de Tricot Calça Pantalona + Blusa Manga Bufante",
+    "image": "images/conjunto-tricot.jpg",
+    "price": "147,25",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/7AeSJZaPm3"
+  },
+  {
+    "name": "3D Hydra Lipgloss Kiko Milano",
+    "image": "images/lipgloss-kiko.jpg",
+    "price": "20,88",
+    "oldPrice": "149,99",
+    "link": "https://s.shopee.com.br/BUi0KMOwK"
+  },
+  {
+    "name": "Creme Hidratante Facial Principia 5% Karité + 2% Niacinamida 50g",
+    "image": "images/creme-principia.jpg",
+    "price": "39,00",
+    "oldPrice": "42,99",
+    "link": "https://s.shopee.com.br/4LKGymqbVK"
+  },
+  {
+    "name": "Casaco de Lã Batida Feminino com Bolso e Botões",
+    "image": "images/casaco-la-batida.jpg",
+    "price": "77,00",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/4LKH29GVUu"
+  },
+  {
+    "name": "Macacão Longo Pantalona Alfaiataria Corset com Cinto",
+    "image": "images/macacao-corset.jpg",
+    "price": "161,50",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/4qGZNJE93a"
+  },
+  {
+    "name": "Necessaire Puffer Básica Gocase",
+    "image": "images/necessaire-puffer.jpg",
+    "price": "49,90",
+    "oldPrice": "59,90",
+    "link": "https://s.shopee.com.br/gR0SlvZNp?lp=aff"
+  },
+  {
+    "name": "Outlet Bolsa Tote Shopper Gocase (leves defeitos)",
+    "image": "images/tote-shopper-outlet.jpg",
+    "price": "132,91",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/LoA4PqEp1"
+  },
+  {
+    "name": "Bolsa Tote Bloom Godaily Leve Moderna Transversal",
+    "image": "images/tote-bloom.jpg",
+    "price": "118,66",
+    "oldPrice": "",
+    "link": "https://s.shopee.com.br/1LghGv9XHg"
+  },
+  {
+    "name": "Touca Gel Frio e Quente para Enxaqueca e Insônia",
+    "image": "images/touca-enxaqueca.jpg",
+    "price": "19,88",
+    "oldPrice": "39,99",
+    "link": "https://s.shopee.com.br/8fTI4lUwTs"
   }
 ]
