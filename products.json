@@ -1,12 +1,5 @@
 [
   {
-    "name": "Cesto de Roupa Suja de Bambu Dobrável Redondo 57L com Tampa e Alças",
-    "image": "images/cesto-bambu-57l.jpg",
-    "price": "52,84",
-    "oldPrice": "89,90",
-    "link": "https://s.shopee.com.br/2VsenEKkd4"
-  },
-  {
     "name": "Kit Cica-Therapy Siàge Eudora — Shampoo, Condicionador, Máscara e Leave-in",
     "image": "images/eudora-cica-therapy.jpg",
     "price": "55,99",
@@ -369,5 +362,12 @@
     "price": "118,75",
     "oldPrice": "",
     "link": "https://s.shopee.com.br/4VdjDTEleP"
+  },
+  {
+    "name": "Cesto de Roupa Suja de Bambu Dobrável Redondo 57L com Tampa e Alças",
+    "image": "images/cesto-bambu-57l.jpg",
+    "price": "52,84",
+    "oldPrice": "89,90",
+    "link": "https://s.shopee.com.br/2VsenEKkd4"
   }
 ]
